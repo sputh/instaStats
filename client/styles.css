@@ -4,3 +4,18 @@ body {
   background-size: 100%;
 	background-origin: content-box;
 }
+
+core-header-panel {
+  height: 100%;
+  background-color: red;
+}
+
+.center {
+   width: 300px;
+   height: 300px;
+   position: absolute;
+   left: 50%;
+   top: 45%; 
+   /*margin-left: -150px;*/
+   /*margin-top: -150px;*/
+}
