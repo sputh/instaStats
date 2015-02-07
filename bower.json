@@ -1,0 +1,28 @@
+{
+  "name": "instaStats",
+  "version": "0.0.0",
+  "homepage": "https://github.com/sputh/instaStats",
+  "authors": [
+    "sputh <samantha.puth@gmail.com>"
+  ],
+  "description": "Displays Instagram stats",
+  "main": "index.html",
+  "keywords": [
+    "instagram",
+    "backbone",
+    "marionette"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "client/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.2",
+    "backbone.marionette": "~2.3.2"
+  }
+}
