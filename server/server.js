@@ -8,7 +8,8 @@ var port = process.env.PORT || 4568;
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
-app.use(express.static(__dirname + '/../public'));
+app.use(express.static(__dirname + '/../client'));
+// app.use("/styles", express.static(__dirname + '/styles'));
 
 app.get('/', function(req, res) {
   res.render('index');
